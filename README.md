@@ -86,7 +86,7 @@ Abra o navegador em http://localhost:5173
 
 ---
 
-📐 Estilo e Componentização:
+## 📐 Estilo e Componentização:
 
 Cada componente possui seu próprio arquivo de CSS modular (.module.css) garantindo que:
 Estilos não vazem para outros componentes;
@@ -95,6 +95,6 @@ Possibilita temas e personalizações futuras.
 
 ---
 
-📝 Licença
+## 📝 Licença
 Este projeto está sob a licença MIT.
 
