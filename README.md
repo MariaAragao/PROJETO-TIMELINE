@@ -1,73 +1,85 @@
-<<<<<<< HEAD
-# PROJETO-TIMELINE
-=======
-# React + TypeScript + Vite
+# Projeto Timeline - React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React Logo](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript Logo](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite Logo](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-Currently, two official plugins are available:
+## 📌 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **Projeto Timeline** é uma aplicação web desenvolvida com **React**, **TypeScript** e **Vite**, criada durante um curso da Rocketseat.  
+O projeto simula uma rede social simples, onde é possível:
 
-## Expanding the ESLint configuration
+- Publicar posts;
+- Aplaudir posts (like);
+- Deletar posts.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Todos os estilos foram implementados utilizando **CSS Modules**, garantindo um estilo modular e isolado para cada componente.  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+O objetivo do projeto é reforçar conceitos de:
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Componentização em React;
+- Tipagem com TypeScript;
+- Gerenciamento de estado local;
+- Reutilização de componentes;
+- Boas práticas em CSS modular.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🗂 Estrutura do Projeto
+
+```text
+src/
+ ├─ assets/                # Arquivos de mídia e imagens
+ ├─ components/            # Componentes reutilizáveis
+ │   ├─ Avatar.tsx
+ │   ├─ Comment.tsx
+ │   ├─ Header.tsx
+ │   ├─ Post.tsx
+ │   └─ Sidebar.tsx
+ ├─ App.tsx
+ ├─ main.tsx
+ └─ global.css
 ```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+⚙ Tecnologias Utilizadas
+React
+TypeScript
+Vite
+CSS Modules
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
->>>>>>> 23519c8 (projeto-timeline)
+🚀 Funcionalidades:
+
+Criar post: O usuário pode adicionar novos posts, inserindo conteúdo e autor.
+Aplaudir post: O usuário pode clicar no botão de aplauso para aumentar o contador de likes.
+Deletar post: O usuário pode remover posts publicados da timeline.
+
+---
+
+💻 Como Rodar o Projeto
+Clone este repositório:
+git clone https://github.com/SEU_USUARIO/PROJETO-TIMELINE.git
+Acesse a pasta do projeto:
+cd PROJETO-TIMELINE
+Instale as dependências:
+npm install
+Inicie o servidor de desenvolvimento:
+npm run dev
+Abra o navegador em http://localhost:5173
+
+---
+
+📐 Estilo e Componentização:
+
+Cada componente possui seu próprio arquivo de CSS modular (.module.css) garantindo que:
+Estilos não vazem para outros componentes;
+Facilita manutenção e reaproveitamento de código;
+Possibilita temas e personalizações futuras.
+
+---
+
+📝 Licença
+Este projeto está sob a licença MIT.
+
