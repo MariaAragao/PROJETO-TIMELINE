@@ -44,10 +44,10 @@ src/
 
 ## ⚙ Tecnologias Utilizadas:
 
-- React;
-- TypeScript;
-- Vite;
-- CSS Modules;
+- React
+- TypeScript
+- Vite
+- CSS Modules
 
 ---
 
