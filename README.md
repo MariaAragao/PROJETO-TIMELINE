@@ -42,16 +42,16 @@ src/
 ```
 ---
 
-⚙ Tecnologias Utilizadas:
+## ⚙ Tecnologias Utilizadas:
 
--React;
--TypeScript
--Vite
--CSS Modules
+- React;
+- TypeScript;
+- Vite;
+- CSS Modules;
 
 ---
 
-🚀 Funcionalidades:
+## 🚀 Funcionalidades:
 
 Criar post: O usuário pode adicionar novos posts, inserindo conteúdo e autor.
 Aplaudir post: O usuário pode clicar no botão de aplauso para aumentar o contador de likes.
@@ -59,7 +59,8 @@ Deletar post: O usuário pode remover posts publicados da timeline.
 
 ---
 
-💻 Como Rodar o Projeto
+## 💻 Como Rodar o Projeto
+
 Clone este repositório:
 
 ```
