@@ -42,11 +42,12 @@ src/
 ```
 ---
 
-⚙ Tecnologias Utilizadas
-React
-TypeScript
-Vite
-CSS Modules
+⚙ Tecnologias Utilizadas:
+
+-React;
+-TypeScript
+-Vite
+-CSS Modules
 
 ---
 
@@ -60,13 +61,26 @@ Deletar post: O usuário pode remover posts publicados da timeline.
 
 💻 Como Rodar o Projeto
 Clone este repositório:
+
+```
 git clone https://github.com/SEU_USUARIO/PROJETO-TIMELINE.git
+```
+
 Acesse a pasta do projeto:
+```
 cd PROJETO-TIMELINE
+```
+
 Instale as dependências:
+```
 npm install
+```
+
 Inicie o servidor de desenvolvimento:
+```
 npm run dev
+```
+
 Abra o navegador em http://localhost:5173
 
 ---
